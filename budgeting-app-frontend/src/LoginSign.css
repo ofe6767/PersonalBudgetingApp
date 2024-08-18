@@ -1,0 +1,97 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.login-sign-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 320px;
+}
+
+
+h2 {
+  margin-bottom: 2rem; 
+  font-size: 2rem; 
+  text-align: center;
+  color: #ffffff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.2); 
+  display: inline-block;
+  padding: 0.5rem 1rem; 
+  border-radius: 0.5rem; 
+  margin-top: -4rem;  
+}
+
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box; 
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #5c67ed;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(92, 103, 237, 0.3);
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button[type="submit"] {
+  background-color: #5c67ed;
+  color: white;
+}
+
+button[type="button"] {
+  background-color: transparent;
+  color: #5c67ed;
+  box-shadow: none;
+}
+
+button[type="submit"]:hover {
+  background-color: #4a54d1;
+}
+
+button[type="button"]:hover {
+  text-decoration: underline;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(92, 103, 237, 0.3);
+}
